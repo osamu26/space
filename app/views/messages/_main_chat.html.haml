@@ -1,0 +1,37 @@
+.chat
+  .header
+    .left-header
+      .left-header__title
+        Test
+      %ul.left-header__member
+        Member
+        %li.name
+          risa
+        %li.name
+          miki 
+        %li.name
+          erina 
+
+    .right-header
+      .right-header__edit
+        Edit
+
+  .main-group
+    .main-group__box
+      .main-group__box-up
+        .main-group__box-up__name
+          risa
+        .main-group__box-up__date
+          20190102
+      .main-group__box-down 
+        おはよう
+
+
+
+  .main-form 
+    .input-box
+      %input{type:"text", class:"input-box__text", placeholder: "type a message"}
+      %label{class: "input-box__image"}
+        =icon('fas','image')
+        %input{type: "file",class: "input-box__image__file"}
+    %input{type: "submit",class: "submit-btn"}
