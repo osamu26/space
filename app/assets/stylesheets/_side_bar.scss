@@ -1,0 +1,71 @@
+.side {
+  height:100vh;
+  width:300px;
+  background-color:#253141;
+
+
+  .header {
+  height:100px;
+  width:100%;
+  background-color: #253141;
+  position: relative;
+
+    &__box {
+      height:20px;
+      width:260px;
+      background-color: #333333;
+      margin:0 20px;
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      position: absolute;
+      top:40px;
+      
+
+
+      &__name {
+        background-color: blue;
+        font-size:16px;
+        color:#ffffff;
+      }
+      &__iconbox {
+        width:60px;
+        height:100%;
+        display: flex;
+        justify-content: space-between;
+        .header__box__iconbox__icon {
+          margin-right: 5px;
+        }
+          .btn {
+            color:white;
+            margin-right:5px;
+          }
+      }
+
+    }
+  }
+  
+
+  .group {
+    height:calc(100% - 100px);
+    width:100%;
+    background-color: #2f3e51;
+    .group-box {
+      height:85px;
+      background-color: blue;
+      width:100%;
+      padding:20px;
+      .group-name {
+        size:15px;
+        color: #ffffff;
+      }
+      .group-message {
+        size:11px;
+        color: #ffffff;
+        margin-top:5px;
+      }
+    }
+
+
+  }
+}
